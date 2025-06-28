@@ -1,0 +1,26 @@
+
+
+.calendar-section {
+    padding: 80px 10%;
+    background: #ffffff;
+    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calendar-section h2 {
+    font-size: 28px;
+    color: #8b0000;
+    margin-bottom: 20px;
+}
+
+.calendar-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.calendar-section ul li {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}

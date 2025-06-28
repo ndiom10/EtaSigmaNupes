@@ -1,0 +1,72 @@
+
+
+.history-section {
+    padding: 80px 10%;
+    background: #ffffff;
+    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.history-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.history-header h1 {
+    font-size: 40px;
+    color: #8b0000;
+}
+
+.history-header p {
+    font-size: 18px;
+    color: #555;
+}
+
+.history-content h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #8b0000;
+}
+
+.history-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.founder-list {
+    margin-top: 15px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.founder-list li {
+    margin-bottom: 5px;
+}
+
+.milestone-timeline {
+    margin-top: 50px;
+}
+
+.milestone-timeline h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #8b0000;
+}
+
+.timeline-event {
+    background-color: #f2f2f2;
+    border-left: 5px solid #8b0000;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.timeline-event h4 {
+    margin: 0;
+    color: #8b0000;
+}
+
+.timeline-event p {
+    margin: 5px 0 0 0;
+}

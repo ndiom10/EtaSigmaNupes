@@ -1,0 +1,135 @@
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../etasigmabackground.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+nav img {
+    width: 150px;
+    height: auto;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box p {
+    color: #f5f5dc; 
+}
+.history-section {
+    padding: 80px 10%;
+    background: #ffffff;
+    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.history-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.history-header h1 {
+    font-size: 40px;
+    color: #8b0000;
+}
+
+.history-header p {
+    font-size: 18px;
+    color: #555;
+}
+
+.history-content h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #8b0000;
+}
+
+.history-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.founder-list {
+    margin-top: 15px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.founder-list li {
+    margin-bottom: 5px;
+}
+
+.milestone-timeline {
+    margin-top: 50px;
+}
+
+.milestone-timeline h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #8b0000;
+}
+
+.timeline-event {
+    background-color: #f2f2f2;
+    border-left: 5px solid #8b0000;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.timeline-event h4 {
+    margin: 0;
+    color: #8b0000;
+}
+
+.timeline-event p {
+    margin: 5px 0 0 0;
+}

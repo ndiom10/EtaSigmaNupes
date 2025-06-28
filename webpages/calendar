@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendar – Eta Sigma Nupes</title>
+  <link rel="stylesheet" href="calendarbackend.css" />
+</head>
+<body>
+  <section class="header">
+    <nav>
+        <img src="etasiglogo.png" alt="Eta Sigma Nupes Logo" />
+      <div class="nav-links">
+        <ul>
+          <li><a href="websitefront.html">Home</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="calendar.html">Calendar</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="text-box">
+      <h1>Chapter Calendar</h1>
+      <p>Mark your calendars with our upcoming activities and programs.</p>
+    </div>
+  </section>
+
+  <section class="history-section">
+    <h2>Fall 2025 Schedule</h2>
+    <ul class="founder-list">
+      <li>Interest Meeting – August 30</li>
+      <li>Community Clean-Up – September 10</li>
+      <li>Chapter Retreat – October 3-5</li>
+      <li>Thanksgiving Drive – November 18</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Eta Sigma Nupes. All rights reserved.</p>
+  </footer>
+</body>
+</html>
